@@ -136,7 +136,7 @@ function showFontInfo(event) {
 
     // Update the tooltip text to include "Chris is saying"
     tooltip.innerText = `Chris is saying: ${fontFamily}`;
-    tooltip.style.left = `${event.pageX + 10}px`;
+    tooltip.style.left = `${event.pageX + 5}px`;
     tooltip.style.top = `${event.pageY + 10}px`;
     tooltip.style.display = 'block';
 
